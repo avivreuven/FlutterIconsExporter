@@ -1,6 +1,6 @@
 {
-    "id": "solaredge.exporter-flutter",
-    "name": "Flutter Exporter",
+    "id": "solaredge.exporter-assets-flutter",
+    "name": "Flutter Assets Exporter",
     "description": "Export your design system data into Flutter",
     "author": "Aviv Reuven",
     "organization": "solaredge",

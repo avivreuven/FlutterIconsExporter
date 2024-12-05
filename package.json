@@ -1,7 +1,7 @@
 {
-    "name": "@solaredge/exporter-flutter",
+    "name": "@solaredge/exporter-assets-flutter",
     "version": "1.0.0",
-    "description": "supernova.io plugin for exporting to Flutter",
+    "description": "supernova.io plugin for exporting assets to Flutter",
     "main": "index.js",
     "scripts": {
         "dev": "npx webpack --mode=development --watch",
