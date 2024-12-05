@@ -1,0 +1,26 @@
+{
+    "name": "@solaredge/exporter-flutter",
+    "version": "1.0.0",
+    "description": "supernova.io plugin for exporting to Flutter",
+    "main": "index.js",
+    "scripts": {
+        "dev": "npx webpack --mode=development --watch",
+        "build": "npx webpack --mode=production"
+    },
+    "author": "[AUTHOR_NAME]",
+    "license": "MIT",
+    "dependencies": {
+        "@supernovaio/export-helpers": "latest",
+        "@supernovaio/icons": "latest",
+        "@supernovaio/sdk": "^2.0.30",
+        "@supernovaio/sdk-exporters": "latest"
+    },
+    "devDependencies": {
+        "prettier": "latest",
+        "terser-webpack-plugin": "latest",
+        "ts-loader": "latest",
+        "typescript": "latest",
+        "webpack": "5.97.0",
+        "webpack-cli": "^5.1.4"
+    }
+}
