@@ -1,6 +1,6 @@
 {
     "name": "@solaredge/exporter-icons-flutter",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "supernova.io plugin for exporting icons to Flutter",
     "main": "index.js",
     "scripts": {
