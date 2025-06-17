@@ -5,7 +5,10 @@
     "main": "index.js",
     "scripts": {
         "dev": "npx webpack --mode=development --watch",
-        "build": "npx webpack --mode=production"
+        "build": "npx webpack --mode=production",
+        "generate-font": "node generate_font.js",
+        "auto-font": "node auto_generate_font.js",
+        "post-export": "npm run auto-font"
     },
     "author": "[AUTHOR_NAME]",
     "license": "MIT",
@@ -16,7 +19,10 @@
         "@supernovaio/sdk-exporters": "latest"
     },
     "devDependencies": {
+        "@types/node": "^22.10.2",
         "prettier": "latest",
+        "rimraf": "^6.0.1",
+        "svgtofont": "^4.2.3",
         "terser-webpack-plugin": "latest",
         "ts-loader": "latest",
         "typescript": "latest",
